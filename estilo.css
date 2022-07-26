@@ -10,7 +10,7 @@ body {
 
 header {
     grid-area: header;
-    background-color: darksalmon;
+    background-color: darkgray;
     border: 0px;
     border-color: black;
     text-align: center;
@@ -54,12 +54,12 @@ nav {
     padding: 40px;
     height: 10px;
     width: 80px;
-    background-color: darksalmon;
+    background-color: darkgray;
     text-align: center;
 }
 
 .boxmode2 {
-    background-color: darksalmon;
+    background-color: darkgray;
     border: 2px black solid;
     width: 210px;
     height: 80px;
@@ -74,7 +74,7 @@ nav {
 
 h2 {
     grid-area: h2;
-    background-color: darksalmon;
+    background-color: darkgray;
     border-bottom: 1px;
     border: 1px black solid;
     text-align: center;
@@ -198,6 +198,6 @@ aside {
 
 footer {
     grid-area: footer;
-    background-color: darksalmon;
+    background-color: darkgray;
     text-align: center;
 }
