@@ -10,7 +10,7 @@ body {
 
 header {
     grid-area: header;
-    background-color: #c39f8b;
+    background: linear-gradient(to top #a28373, #7F6A5F) ;
     border: 0px;
     border-color: black;
     text-align: center;
@@ -131,7 +131,7 @@ padding: 25px;
 .bazar {
     grid-area: bazar;
     display: flex;
-    width: 600px;
+    width: 400px;
     height: 400px;
     padding: 50px;
     margin: 50px;
