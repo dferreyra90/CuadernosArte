@@ -43,10 +43,11 @@ nav {
     grid-template-areas: 
         "header header header header"
         "nav section4 section4 aside"
+        "nav section4 section4 aside"
         "nav section5 section5 aside"
-        "nav bazar bazar aside"
-        "nav bazar bazar aside"
-        "nav bazar bazar aside"
+        "nav bazar bazar2 bazar3"
+        "nav bazar bazar2 bazar3"
+        "nav bazar bazar2 bazar3"
         "footer footer footer footer";
     align-items: stretch;
 }
@@ -55,6 +56,12 @@ nav {
     width: 200px;
     height: 200px;
     border: 50px;
+}
+
+.miau {
+    width: 100px;
+    height: 100px;
+    border: 60px;
 }
 
 .boxmode {
@@ -84,6 +91,7 @@ nav {
 .boxmode:hover{
     background-color: #e9d7bc;
 }
+
 .boxmode2:hover {
     background-color: #e9d7bc;
 }
@@ -159,12 +167,18 @@ padding: 25px;
 .bazar {
     grid-area: bazar;
     display: flex;
-    width: 400px;
-    height: 400px;
-    padding: 50px;
-    margin: 50px;
+
 }
 
+.bazar2 {
+    grid-area: bazar2;
+    display: flex;
+}
+
+.bazar3 {
+    grid-area: bazar3;
+    display: flex;
+}
 
 .cuaderno {
     display: grid;
