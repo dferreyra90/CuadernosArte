@@ -16,6 +16,13 @@ header {
     text-align: center;
 }
 
+h1{
+    grid-area: h1;
+    background: linear-gradient(to top #c39f8b, #7f6a5f);
+    border-color: black;
+    text-align: center;
+}
+
 nav {
     grid-area: nav;
 }
