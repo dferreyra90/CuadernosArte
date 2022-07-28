@@ -10,7 +10,7 @@ body {
 
 header {
     grid-area: header;
-    background: linear-gradient(to top #a28373, #7F6A5F) ;
+    background-color: linear-gradient(to top #a28373, #7F6A5F) ;
     border: 0px;
     border-color: black;
     text-align: center;
@@ -78,6 +78,20 @@ h2 {
     grid-area: h2;
     background-color: #c39f8b;
     border-bottom: 1px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+h3 {
+    grid-area: h3;
+    background-color: #c39f8b;
+    border: 1px black solid ;
+    text-align: center;
+}
+
+h4 {
+    grid-area: h4;
+    background-color: #c39f8b;
     border: 1px black solid;
     text-align: center;
 }
