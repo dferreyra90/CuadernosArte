@@ -10,8 +10,8 @@ body {
 
 header {
     grid-area: header;
-    background-color: linear-gradient(to top #a28373, #7F6A5F) ;
-    border: 0px;
+    background-color: #c39f8b;
+    border: 1px;
     border-color: black;
     text-align: center;
 }
@@ -72,6 +72,13 @@ nav {
     align-items: center;
     font-size: 25px;
     margin-left: 0px;
+}
+
+.boxmode:hover{
+    background-color: #e9d7bc;
+}
+.boxmode2:hover {
+    background-color: #e9d7bc;
 }
 
 h2 {
