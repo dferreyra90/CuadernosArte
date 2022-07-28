@@ -131,7 +131,7 @@ padding: 25px;
 .bazar {
     grid-area: bazar;
     display: flex;
-    width: 800px;
+    width: 600px;
     height: 400px;
     padding: 50px;
     margin: 50px;
