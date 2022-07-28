@@ -2,9 +2,9 @@ body {
     background-color: #e9d7bc;
     font-size: 20px;
     font-family: Georgia,
-    'Times New Roman',
-    Times,
-    serif;
+        'Times New Roman',
+        Times,
+        serif;
     text-align: justify;
 }
 
@@ -16,7 +16,7 @@ header {
     text-align: center;
 }
 
-h1{
+h1 {
     grid-area: h1;
     background: linear-gradient(to top #c39f8b, #7f6a5f);
     border-color: black;
@@ -40,11 +40,12 @@ nav {
 
 .cuadro {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "header header header header"
         "nav section4 section4 section4"
         "nav section4 section4 section4"
-        "nav section5 section5 secion5"
+        "nav section5 section5 section5"
+        "nav section5 section5 section5"
         "bazar bazar2 bazar3"
         "bazar bazar2 bazar3"
         "bazar bazar2 bazar3"
@@ -82,7 +83,7 @@ nav {
     margin-left: 0px;
 }
 
-.boxmode:hover{
+.boxmode:hover {
     background-color: #e9d7bc;
 }
 
@@ -101,7 +102,7 @@ h2 {
 h3 {
     grid-area: h3;
     background-color: #c39f8b;
-    border: 1px black solid ;
+    border: 1px black solid;
     text-align: center;
 }
 
@@ -139,13 +140,13 @@ img {
 }
 
 .section4 {
-grid-area: section4;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin-left: 50px;
-padding: 25px;
+    grid-area: section4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    padding: 25px;
 }
 
 .section5 {
