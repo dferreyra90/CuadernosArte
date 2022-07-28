@@ -36,8 +36,10 @@ nav {
     grid-template-areas: 
         "header header header header"
         "nav section4 section4 aside"
-        "nav section4 section4 aside"
         "nav section5 section5 aside"
+        "nav bazar bazar aside"
+        "nav bazar bazar aside"
+        "nav bazar bazar aside"
         "footer footer footer footer";
     align-items: stretch;
 }
@@ -125,6 +127,16 @@ padding: 25px;
     margin-left: 50px;
     padding: 25px;
 }
+
+.bazar {
+    grid-area: bazar;
+    display: flex;
+    width: 800px;
+    height: 400px;
+    padding: 50px;
+    margin: 50px;
+}
+
 
 .cuaderno {
     display: grid;
