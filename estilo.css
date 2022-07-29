@@ -38,17 +38,7 @@ nav {
     align-items: stretch;
 }
 
-.cuadro {
-    display: grid;
-    grid-template-areas:
-        "header header header header"
-        "nav section4 section4 section4"
-        "nav section4 section4 section4"
-        "nav section5 section5 section5"
-        "bazar bazar2 bazar3"
-        "bazar bazar2 bazar3"
-        "bazar bazar2 bazar3";
-}
+
 
 .png {
     width: 200px;
